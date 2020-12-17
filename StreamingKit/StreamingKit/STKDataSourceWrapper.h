@@ -40,7 +40,7 @@ NS_ASSUME_NONNULL_BEGIN
 
 -(instancetype) initWithDataSource:(STKDataSource*)innerDataSource;
 
-@property (readonly) STKDataSource* innerDataSource;
+@property (readwrite) STKDataSource* innerDataSource;
 
 @end
 

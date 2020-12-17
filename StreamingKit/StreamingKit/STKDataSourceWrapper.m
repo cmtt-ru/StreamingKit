@@ -35,7 +35,7 @@
 #import "STKDataSourceWrapper.h"
 
 @interface STKDataSourceWrapper()
-@property (readwrite) STKDataSource* innerDataSource;
+//@property (readwrite) STKDataSource* innerDataSource;
 @end
 
 @implementation STKDataSourceWrapper
